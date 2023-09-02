@@ -1,0 +1,357 @@
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 500;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff) format('woff')
+}
+
+body {
+    font-family: "Netflix Sans", sans-serif;
+    background-color: rgba(20, 20, 20, 1);
+    color: white;
+}
+
+/* OVERLAY */
+.overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(20, 20, 20, 1);
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    
+}
+
+.overlay img {
+    width: 70vw;
+    animation: slide-left 3s ease-in-out 2 alternate forwards;
+}
+
+ @-webkit-keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+              opacity: 0;
+              z-index: -1;
+    }
+    100% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+              opacity: 1;
+              z-index: 1;
+    }
+  }
+  @keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+              opacity: 0;
+              z-index: 0;
+    }
+    100% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+              opacity: 1;
+              z-index: 5;
+    }
+  }
+  
+
+.navbar, .category, .carousel, .footer {
+    animation: fade-in 5s cubic-bezier(1,0,1,-0.07)
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+
+        to {
+            opacity: 1;
+        }
+    }
+}
+
+    /* NAVBAR */
+    nav {
+        background: rgb(12, 12, 12);
+        background: linear-gradient(180deg, rgba(12, 12, 12, 1) 50%, rgba(20, 20, 20, 1) 90%);
+        color: white;
+        position: sticky !important;
+        top: 0;
+        z-index: 4;
+    }
+
+
+    .nav-link {
+        text-decoration: none;
+        color: white;
+        transition: color 0.4s ease;
+    }
+
+    .bi-list {
+        color: white;
+    }
+
+    .nav-link:hover {
+        color: #b3b3b3;
+    }
+
+    .dropdown-item:focus,
+    .dropdown-item:hover {
+        background-color: red;
+    }
+
+    .logo {
+        height: 6vh;
+        width: 13vh;
+        margin-right: 30px;
+    }
+
+
+    .bi-search {
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .notification .dropdown-toggle::after {
+        visibility: hidden;
+    }
+
+    .nav-item img {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    #input {
+        display: none;
+    }
+
+    #dropdownGenre {
+        background-color: black;
+
+    }
+
+    /* SEZIONE SOTTO NAVBAR */
+    .bi-text-left {
+        border: solid 1px;
+        color: white;
+        transition: color 0.4s ease;
+        cursor: pointer;
+    }
+
+    .bi-text-left:hover {
+        color: #b3b3b3;
+    }
+
+    .bi-grid {
+        border: solid 1px;
+        color: white;
+        transition: color 0.4s ease;
+        cursor: pointer;
+    }
+
+    .bi-grid:hover {
+        color: #b3b3b3;
+    }
+
+    /* CAROSELLI */
+    #carouselExampleControls .carousel-inner {
+        overflow: visible;
+    }
+
+    #carouselExampleControls2 .carousel-inner {
+        overflow: visible;
+    }
+
+    #carouselExampleControls3 .carousel-inner {
+        overflow: visible;
+    }
+
+    #carouselExampleControls4 .carousel-inner {
+        overflow: visible;
+    }
+
+    .scroll-section {
+        /* CAROSELLO CHE APPARE */
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.5s, transform 0.5s;
+    }
+
+    .scroll-section.visible {
+        /* CAROSELLO CHE APPARE */
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    /* CARDS DEL CAROSELLO */
+    .carousel-item {
+        z-index: 1;
+        transition: z-index 0.75s ease-in-out;
+    }
+
+    .carousel-item:hover {
+        z-index: 2;
+    }
+
+    .carousel-item .card .card-body {
+        opacity: 0;
+        position: absolute;
+        top: calc(100% - 1px);
+        left: 0;
+        pointer-events: none;
+        transform: translateY(-10px);
+        transition: all 0.75s ease-in-out;
+    }
+
+    .carousel-item .card {
+        transform: scale(1);
+        transition: transform 0.75s ease-in-out;
+    }
+
+    .carousel-item .card:hover {
+        transform: scale(1.1);
+    }
+
+    .carousel-item .card:hover .card-body {
+        opacity: 1;
+        transform: translateY(0px);
+        pointer-events: unset;
+    }
+
+    .carousel-item .card .card-body::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(12, 12, 12, 1);
+        transition: all 0.75s ease-in-out;
+        z-index: 1;
+    }
+
+    .bi-play-circle-fill {
+        position: absolute;
+        color: white;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    .bi-plus-circle {
+        position: absolute;
+        left: 25%;
+        color: white;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    .movieTitle {
+        position: absolute;
+        top: 40%;
+        color: white;
+        z-index: 2;
+    }
+
+    .movieDescr {
+        position: absolute;
+        top: 60%;
+        color: white;
+        z-index: 2;
+    }
+
+    .carousel-control-prev {
+        width: 1%;
+    }
+
+    .carousel-control-prev-icon {
+        position: absolute;
+        right: 20px;
+    }
+
+    .carousel-control-next {
+        width: 1%;
+    }
+
+    .carousel-control-next-icon {
+        position: absolute;
+        left: 20px;
+    }
+
+    /* FOOTER */
+    footer {
+        margin-top: 20rem;
+        color: #b3b3b3;
+    }
+
+    .info {
+        text-decoration: none;
+        color: #b3b3b3;
+        transition: color 0.4s ease;
+        cursor: pointer;
+    }
+
+    .info:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    .bi-facebook {
+        margin-left: 0 !important;
+        color: #b3b3b3;
+        transition: color 0.4s ease;
+        cursor: pointer;
+    }
+
+    .bi-facebook:hover {
+        color: white;
+    }
+
+    .bi-instagram {
+        color: #b3b3b3;
+        transition: color 0.4s ease;
+        cursor: pointer;
+    }
+
+    .bi-instagram:hover {
+        color: white;
+    }
+
+    .bi-twitter {
+        color: #b3b3b3;
+        transition: color 0.4s ease;
+        cursor: pointer;
+    }
+
+    .bi-twitter:hover {
+        color: white;
+    }
+
+    .bi-youtube {
+        color: #b3b3b3;
+        transition: color 0.4s ease;
+        cursor: pointer;
+    }
+
+    .bi-youtube:hover {
+        color: white;
+    }
+
+    .service {
+        background: transparent;
+        border: 1px gray solid;
+        color: gray;
+        font-size: 1rem;
+        transition: color border 0.4s ease;
+    }
+
+    .service:hover {
+        color: white;
+        border: 1px white solid;
+    }
+
+    .credits {
+        font-size: 12px;
+    }
