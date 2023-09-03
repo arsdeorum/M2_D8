@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/style/style.css">
-  <link rel="icon" href="assets/imgs/favicon.ico"> <!-- aggiunge immagine della N di netflix nella scheda-->
+  <link rel="icon" href="assets/imgs/favicon.ico">
   <title>Home - Netflix</title>
 </head>
 
@@ -35,8 +35,8 @@
             d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
         </svg></span>
     </button>
-
-    <div class="order-1 order-md-1"> <!-- ricerca -->
+ <!-- search -->
+    <div class="order-1 order-md-1">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search"
         viewBox="0 0 16 16">
         <path
@@ -45,8 +45,8 @@
       <input id="input" class="form-control mr-sm-2 bg-transparent rounded-0 border border-light text-white"
         type="search" placeholder="Search..." aria-label="Search">
     </div>
-
-    <div class="nav-item dropdown order-2 order-md-4"> <!-- profilo -->
+<!-- profile -->
+    <div class="nav-item dropdown order-2 order-md-4"> 
       <a class="nav-link dropdown-toggle right" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
         <img src="assets/imgs/avatar-1.jpg" alt="avatar-1.jpg">
       </a>
@@ -58,8 +58,8 @@
       </div>
     </div>
 
-
-    <a class="nav-link d-none d-md-block order-md-2" href="#">KIDS</a> <!-- "tasto" kids -->
+<!-- kids button -->
+    <a class="nav-link d-none d-md-block order-md-2" href="#">KIDS</a> 
 
     <div class="notification order-md-3">
       <div class="nav-item dropdown d-none d-md-block"> <!-- notifiche -->
@@ -102,7 +102,7 @@
     </div>
   </nav>
 
-  <!-- Categoria scelta -->
+  <!-- Category -->
   <div class="category mx-5 mb-5 d-flex justify-content-between align-items-center">
     <div class="row">
       <div class="col-12 d-flex align-items-center">
@@ -143,7 +143,7 @@
   </div>
 
 
-  <!-- Carosello "Trending Now" -->
+  <!-- Carousel "Trending Now" -->
 
   <div id="carouselExampleControls" class="carousel slide mx-5 mt-5" data-ride="carousel" data-interval="false">
     <h2 class="mb-4">Trending Now</h2>
@@ -153,7 +153,7 @@
           <div class="col-6 col-md-2">
             <div class="card border-0">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/1.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/19.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -168,8 +168,9 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">One Piece</h5>
+                  <p class="movieDescr">Entusiasmante . Irriverente . Avventura
+                  </p>
                 </div>
               </div>
             </div>
@@ -177,7 +178,7 @@
           <div class="col-6 col-md-2">
             <div class="card border-0">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/2.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/20.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -192,8 +193,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Good Witch</h5>
+                  <p class="movieDescr">TV fantasy . Stregoneria . Poteri paranormali</p>
                 </div>
               </div>
             </div>
@@ -201,7 +202,7 @@
           <div class="col-6 col-md-2">
             <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/3.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/21.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -216,8 +217,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Painkiller</h5>
+                  <p class="movieDescr">Provvocatorio . Dramma . Corale</p>
                 </div>
               </div>
             </div>
@@ -225,7 +226,7 @@
           <div class="col-6 col-md-2">
             <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/4.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/22.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -240,8 +241,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Gossip girl</h5>
+                  <p class="movieDescr">Scandaloso . Stile soap . Adolescenziale</p>
                 </div>
               </div>
             </div>
@@ -264,8 +265,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Summer time</h5>
+                  <p class="movieDescr">Stile soap . Dolceamaro . Adolescenziale</p>
                 </div>
               </div>
             </div>
@@ -288,8 +289,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">I Delitti di Valhalla</h5>
+                  <p class="movieDescr">Cupo . Suspence. Noir</p>
                 </div>
               </div>
             </div>
@@ -316,8 +317,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">L'altra Grace</h5>
+                  <p class="movieDescr">Intelletuale . Psicologico . Storico</p>
                 </div>
               </div>
             </div>
@@ -340,8 +341,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Virgin River</h5>
+                  <p class="movieDescr">Stile soap . Dolceamaro . Drama</p>
                 </div>
               </div>
             </div>
@@ -364,8 +365,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">The English Game</h5>
+                  <p class="movieDescr">Storico . Calcio . Età Vittoriana</p>
                 </div>
               </div>
             </div>
@@ -388,8 +389,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Il Metodo Kominsky</h5>
+                  <p class="movieDescr">Ammicante . Arguto . Sitcom</p>
                 </div>
               </div>
             </div>
@@ -397,7 +398,7 @@
           <div class="col-6 col-md-2">
             <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/11.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/1.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -412,8 +413,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Unortodhox</h5>
+                  <p class="movieDescr">Profondo . Emozionante . Dramma</p>
                 </div>
               </div>
             </div>
@@ -436,8 +437,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">La casa de las flores</h5>
+                  <p class="movieDescr">Camp . Sensuale . Dramedy</p>
                 </div>
               </div>
             </div>
@@ -449,7 +450,7 @@
           <div class="col-6 col-md-2">
             <div class="card border-0">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/13.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/2.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -464,8 +465,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">After Life</h5>
+                  <p class="movieDescr">Umorismo Inglese . Arguto . Commedia cupa</p>
                 </div>
               </div>
             </div>
@@ -488,8 +489,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Self made</h5>
+                  <p class="movieDescr">Motivante . Ottimista . Emozionante</p>
                 </div>
               </div>
             </div>
@@ -512,8 +513,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Freud</h5>
+                  <p class="movieDescr">Cupo . Suspence . Misteri</p>
                 </div>
               </div>
             </div>
@@ -536,8 +537,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Grace & Frankie</h5>
+                  <p class="movieDescr">Arguto . Bizzarro . Sitcom</p>
                 </div>
               </div>
             </div>
@@ -545,7 +546,7 @@
           <div class="col-6 col-md-2">
             <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/17.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/23.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -560,8 +561,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Ray Donovan</h5>
+                  <p class="movieDescr">Crudo . Dramma . Celebrità</p>
                 </div>
               </div>
             </div>
@@ -569,7 +570,7 @@
           <div class="col-6 col-md-2">
             <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/18.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/24.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -584,8 +585,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Ghostbusters Legacy</h5>
+                  <p class="movieDescr">Nostalgico . Ottimista . SciFi</p>
                 </div>
               </div>
             </div>
@@ -605,7 +606,7 @@
     </div>
   </div>
 
-  <!-- Carosello "Watch It Again" -->
+  <!-- Carousel "Watch It Again" -->
 
   <div id="carouselExampleControls2" class="mx-5 mt-5 carousel slide" data-ride="carousel" data-interval="false">
     <h2 class="mb-4">Watch It Again</h2>
@@ -613,9 +614,9 @@
       <div class="carousel-item active">
         <div class="row">
           <div class="col-6 col-md-2">
-            <div class="card border-0 d-none d-md-flex">
+            <div class="card border-0">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/1.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/19.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -630,32 +631,9 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-2">
-            <div class="card border-0 d-none d-md-flex">
-              <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/2.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="card-body w-100 h-100 d-none d-md-block">
-                <div>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                    class="bi bi-play-circle-fill" viewBox="0 0 16 16">
-                    <path
-                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                    class="bi bi-plus-circle" viewBox="0 0 16 16">
-                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                    <path
-                      d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
-                  </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">One Piece</h5>
+                  <p class="movieDescr">Entusiasmante . Irriverente . Avventura
+                  </p>
                 </div>
               </div>
             </div>
@@ -663,7 +641,7 @@
           <div class="col-6 col-md-2">
             <div class="card border-0">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/3.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/20.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -678,16 +656,16 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Good Witch</h5>
+                  <p class="movieDescr">TV fantasy . Stregoneria . Poteri paranormali</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-2">
-            <div class="card border-0">
+            <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/4.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/21.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -702,8 +680,32 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Painkiller</h5>
+                  <p class="movieDescr">Provvocatorio . Dramma . Corale</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-2">
+            <div class="card border-0 d-none d-md-flex">
+              <div class="image-wrapper d-block w-100">
+                <img src="/assets/imgs/movies/22.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="card-body w-100 h-100 d-none d-md-block">
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                    class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                    class="bi bi-plus-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                    <path
+                      d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                  </svg>
+                  <h5 class="movieTitle">Gossip girl</h5>
+                  <p class="movieDescr">Scandaloso . Stile soap . Adolescenziale</p>
                 </div>
               </div>
             </div>
@@ -726,8 +728,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Summer time</h5>
+                  <p class="movieDescr">Stile soap . Dolceamaro . Adolescenziale</p>
                 </div>
               </div>
             </div>
@@ -750,8 +752,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">I Delitti di Valhalla</h5>
+                  <p class="movieDescr">Cupo . Suspence. Noir</p>
                 </div>
               </div>
             </div>
@@ -761,7 +763,7 @@
       <div class="carousel-item">
         <div class="row">
           <div class="col-6 col-md-2">
-            <div class="card border-0 d-none d-md-flex">
+            <div class="card border-0">
               <div class="image-wrapper d-block w-100">
                 <img src="/assets/imgs/movies/7.png" class="d-block w-100" alt="...">
               </div>
@@ -778,14 +780,14 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">L'altra Grace</h5>
+                  <p class="movieDescr">Intelletuale . Psicologico . Storico</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-2">
-            <div class="card border-0 d-none d-md-flex">
+            <div class="card border-0">
               <div class="image-wrapper d-block w-100">
                 <img src="/assets/imgs/movies/8.png" class="d-block w-100" alt="...">
               </div>
@@ -802,14 +804,14 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Virgin River</h5>
+                  <p class="movieDescr">Stile soap . Dolceamaro . Drama</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-2">
-            <div class="card border-0">
+            <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
                 <img src="/assets/imgs/movies/9.png" class="d-block w-100" alt="...">
               </div>
@@ -826,14 +828,14 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">The English Game</h5>
+                  <p class="movieDescr">Storico . Calcio . Età Vittoriana</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-2">
-            <div class="card border-0">
+            <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
                 <img src="/assets/imgs/movies/10.png" class="d-block w-100" alt="...">
               </div>
@@ -850,8 +852,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Il Metodo Kominsky</h5>
+                  <p class="movieDescr">Ammicante . Arguto . Sitcom</p>
                 </div>
               </div>
             </div>
@@ -859,7 +861,7 @@
           <div class="col-6 col-md-2">
             <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/11.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/1.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -874,8 +876,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Unortodhox</h5>
+                  <p class="movieDescr">Profondo . Emozionante . Dramma</p>
                 </div>
               </div>
             </div>
@@ -898,8 +900,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">La casa de las flores</h5>
+                  <p class="movieDescr">Camp . Sensuale . Dramedy</p>
                 </div>
               </div>
             </div>
@@ -909,9 +911,9 @@
       <div class="carousel-item">
         <div class="row">
           <div class="col-6 col-md-2">
-            <div class="card border-0 d-none d-md-flex">
+            <div class="card border-0">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/13.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/2.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -926,14 +928,14 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">After Life</h5>
+                  <p class="movieDescr">Umorismo Inglese . Arguto . Commedia cupa</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-2">
-            <div class="card border-0 d-none d-md-flex">
+            <div class="card border-0">
               <div class="image-wrapper d-block w-100">
                 <img src="/assets/imgs/movies/14.png" class="d-block w-100" alt="...">
               </div>
@@ -950,14 +952,14 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Self made</h5>
+                  <p class="movieDescr">Motivante . Ottimista . Emozionante</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-2">
-            <div class="card border-0">
+            <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
                 <img src="/assets/imgs/movies/15.png" class="d-block w-100" alt="...">
               </div>
@@ -974,14 +976,14 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Freud</h5>
+                  <p class="movieDescr">Cupo . Suspence . Misteri</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-2">
-            <div class="card border-0">
+            <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
                 <img src="/assets/imgs/movies/16.png" class="d-block w-100" alt="...">
               </div>
@@ -998,8 +1000,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Grace & Frankie</h5>
+                  <p class="movieDescr">Arguto . Bizzarro . Sitcom</p>
                 </div>
               </div>
             </div>
@@ -1007,7 +1009,7 @@
           <div class="col-6 col-md-2">
             <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/17.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/23.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -1022,8 +1024,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Ray Donovan</h5>
+                  <p class="movieDescr">Crudo . Dramma . Celebrità</p>
                 </div>
               </div>
             </div>
@@ -1031,7 +1033,7 @@
           <div class="col-6 col-md-2">
             <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/18.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/24.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -1046,8 +1048,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Ghostbusters Legacy</h5>
+                  <p class="movieDescr">Nostalgico . Ottimista . SciFi</p>
                 </div>
               </div>
             </div>
@@ -1075,9 +1077,9 @@
       <div class="carousel-item active">
         <div class="row">
           <div class="col-6 col-md-2">
-            <div class="card border-0 d-none d-md-flex">
+            <div class="card border-0">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/1.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/19.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -1092,86 +1094,87 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-2">
-            <div class="card border-0 d-none d-md-flex">
-              <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/2.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="card-body w-100 h-100 d-none d-md-block">
-                <div>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                    class="bi bi-play-circle-fill" viewBox="0 0 16 16">
-                    <path
-                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                    class="bi bi-plus-circle" viewBox="0 0 16 16">
-                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                    <path
-                      d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
-                  </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-2">
-            <div class="card border-0 d-none d-md-flex">
-              <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/3.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="card-body w-100 h-100 d-none d-md-block">
-                <div>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                    class="bi bi-play-circle-fill" viewBox="0 0 16 16">
-                    <path
-                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                    class="bi bi-plus-circle" viewBox="0 0 16 16">
-                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                    <path
-                      d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
-                  </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-2">
-            <div class="card border-0 d-none d-md-flex">
-              <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/4.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="card-body w-100 h-100 d-none d-md-block">
-                <div>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                    class="bi bi-play-circle-fill" viewBox="0 0 16 16">
-                    <path
-                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                    class="bi bi-plus-circle" viewBox="0 0 16 16">
-                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                    <path
-                      d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
-                  </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">One Piece</h5>
+                  <p class="movieDescr">Entusiasmante . Irriverente . Avventura
+                  </p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-2">
             <div class="card border-0">
+              <div class="image-wrapper d-block w-100">
+                <img src="/assets/imgs/movies/20.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="card-body w-100 h-100 d-none d-md-block">
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                    class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                    class="bi bi-plus-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                    <path
+                      d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                  </svg>
+                  <h5 class="movieTitle">Good Witch</h5>
+                  <p class="movieDescr">TV fantasy . Stregoneria . Poteri paranormali</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-2">
+            <div class="card border-0 d-none d-md-flex">
+              <div class="image-wrapper d-block w-100">
+                <img src="/assets/imgs/movies/21.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="card-body w-100 h-100 d-none d-md-block">
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                    class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                    class="bi bi-plus-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                    <path
+                      d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                  </svg>
+                  <h5 class="movieTitle">Painkiller</h5>
+                  <p class="movieDescr">Provvocatorio . Dramma . Corale</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-2">
+            <div class="card border-0 d-none d-md-flex">
+              <div class="image-wrapper d-block w-100">
+                <img src="/assets/imgs/movies/22.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="card-body w-100 h-100 d-none d-md-block">
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                    class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                    class="bi bi-plus-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                    <path
+                      d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                  </svg>
+                  <h5 class="movieTitle">Gossip girl</h5>
+                  <p class="movieDescr">Scandaloso . Stile soap . Adolescenziale</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-2">
+            <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
                 <img src="/assets/imgs/movies/5.png" class="d-block w-100" alt="...">
               </div>
@@ -1188,14 +1191,14 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Summer time</h5>
+                  <p class="movieDescr">Stile soap . Dolceamaro . Adolescenziale</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-2">
-            <div class="card border-0">
+            <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
                 <img src="/assets/imgs/movies/6.png" class="d-block w-100" alt="...">
               </div>
@@ -1212,8 +1215,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">I Delitti di Valhalla</h5>
+                  <p class="movieDescr">Cupo . Suspence. Noir</p>
                 </div>
               </div>
             </div>
@@ -1223,7 +1226,7 @@
       <div class="carousel-item">
         <div class="row">
           <div class="col-6 col-md-2">
-            <div class="card border-0 d-none d-md-flex">
+            <div class="card border-0">
               <div class="image-wrapper d-block w-100">
                 <img src="/assets/imgs/movies/7.png" class="d-block w-100" alt="...">
               </div>
@@ -1240,14 +1243,14 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">L'altra Grace</h5>
+                  <p class="movieDescr">Intelletuale . Psicologico . Storico</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-2">
-            <div class="card border-0 d-none d-md-flex">
+            <div class="card border-0">
               <div class="image-wrapper d-block w-100">
                 <img src="/assets/imgs/movies/8.png" class="d-block w-100" alt="...">
               </div>
@@ -1264,8 +1267,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Virgin River</h5>
+                  <p class="movieDescr">Stile soap . Dolceamaro . Drama</p>
                 </div>
               </div>
             </div>
@@ -1288,8 +1291,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">The English Game</h5>
+                  <p class="movieDescr">Storico . Calcio . Età Vittoriana</p>
                 </div>
               </div>
             </div>
@@ -1312,16 +1315,16 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Il Metodo Kominsky</h5>
+                  <p class="movieDescr">Ammicante . Arguto . Sitcom</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-2">
-            <div class="card border-0">
+            <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/11.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/1.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -1336,14 +1339,14 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Unortodhox</h5>
+                  <p class="movieDescr">Profondo . Emozionante . Dramma</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-2">
-            <div class="card border-0">
+            <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
                 <img src="/assets/imgs/movies/12.png" class="d-block w-100" alt="...">
               </div>
@@ -1360,8 +1363,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">La casa de las flores</h5>
+                  <p class="movieDescr">Camp . Sensuale . Dramedy</p>
                 </div>
               </div>
             </div>
@@ -1371,9 +1374,9 @@
       <div class="carousel-item">
         <div class="row">
           <div class="col-6 col-md-2">
-            <div class="card border-0 d-none d-md-flex">
+            <div class="card border-0">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/13.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/2.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -1388,14 +1391,14 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">After Life</h5>
+                  <p class="movieDescr">Umorismo Inglese . Arguto . Commedia cupa</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-2">
-            <div class="card border-0 d-none d-md-flex">
+            <div class="card border-0">
               <div class="image-wrapper d-block w-100">
                 <img src="/assets/imgs/movies/14.png" class="d-block w-100" alt="...">
               </div>
@@ -1412,8 +1415,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Self made</h5>
+                  <p class="movieDescr">Motivante . Ottimista . Emozionante</p>
                 </div>
               </div>
             </div>
@@ -1436,8 +1439,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Freud</h5>
+                  <p class="movieDescr">Cupo . Suspence . Misteri</p>
                 </div>
               </div>
             </div>
@@ -1460,16 +1463,16 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Grace & Frankie</h5>
+                  <p class="movieDescr">Arguto . Bizzarro . Sitcom</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-2">
-            <div class="card border-0">
+            <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/17.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/23.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -1484,16 +1487,16 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Ray Donovan</h5>
+                  <p class="movieDescr">Crudo . Dramma . Celebrità</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-2">
-            <div class="card border-0">
+            <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/18.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/24.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -1508,8 +1511,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Ghostbusters Legacy</h5>
+                  <p class="movieDescr">Nostalgico . Ottimista . SciFi</p>
                 </div>
               </div>
             </div>
@@ -1529,17 +1532,17 @@
     </div>
   </div>
 
-  <!-- Carosello "Section 4"-->
+  <!-- Carousel "Titoli del Momento"-->
   <div id="carouselExampleControls4" class="mx-5 mt-5 mb-5 carousel slide scroll-section" data-ride="carousel"
     data-interval="false">
-    <h2 class="mb-4">Section 4</h2>
+    <h2 class="mb-4">Titoli del Momento</h2>
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="row">
           <div class="col-6 col-md-2">
             <div class="card border-0">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/1.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/19.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -1554,8 +1557,9 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">One Piece</h5>
+                  <p class="movieDescr">Entusiasmante . Irriverente . Avventura
+                  </p>
                 </div>
               </div>
             </div>
@@ -1563,7 +1567,7 @@
           <div class="col-6 col-md-2">
             <div class="card border-0">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/2.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/20.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -1578,8 +1582,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Good Witch</h5>
+                  <p class="movieDescr">TV fantasy . Stregoneria . Poteri paranormali</p>
                 </div>
               </div>
             </div>
@@ -1587,7 +1591,7 @@
           <div class="col-6 col-md-2">
             <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/3.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/21.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -1602,8 +1606,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Painkiller</h5>
+                  <p class="movieDescr">Provvocatorio . Dramma . Corale</p>
                 </div>
               </div>
             </div>
@@ -1611,7 +1615,7 @@
           <div class="col-6 col-md-2">
             <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/4.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/22.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -1626,8 +1630,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Gossip girl</h5>
+                  <p class="movieDescr">Scandaloso . Stile soap . Adolescenziale</p>
                 </div>
               </div>
             </div>
@@ -1650,8 +1654,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Summer time</h5>
+                  <p class="movieDescr">Stile soap . Dolceamaro . Adolescenziale</p>
                 </div>
               </div>
             </div>
@@ -1674,8 +1678,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">I Delitti di Valhalla</h5>
+                  <p class="movieDescr">Cupo . Suspence. Noir</p>
                 </div>
               </div>
             </div>
@@ -1702,8 +1706,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">L'altra Grace</h5>
+                  <p class="movieDescr">Intelletuale . Psicologico . Storico</p>
                 </div>
               </div>
             </div>
@@ -1726,8 +1730,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Virgin River</h5>
+                  <p class="movieDescr">Stile soap . Dolceamaro . Drama</p>
                 </div>
               </div>
             </div>
@@ -1750,8 +1754,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">The English Game</h5>
+                  <p class="movieDescr">Storico . Calcio . Età Vittoriana</p>
                 </div>
               </div>
             </div>
@@ -1774,8 +1778,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Il Metodo Kominsky</h5>
+                  <p class="movieDescr">Ammicante . Arguto . Sitcom</p>
                 </div>
               </div>
             </div>
@@ -1783,7 +1787,7 @@
           <div class="col-6 col-md-2">
             <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/11.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/1.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -1798,8 +1802,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Unortodhox</h5>
+                  <p class="movieDescr">Profondo . Emozionante . Dramma</p>
                 </div>
               </div>
             </div>
@@ -1822,8 +1826,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">La casa de las flores</h5>
+                  <p class="movieDescr">Camp . Sensuale . Dramedy</p>
                 </div>
               </div>
             </div>
@@ -1835,7 +1839,7 @@
           <div class="col-6 col-md-2">
             <div class="card border-0">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/13.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/2.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -1850,8 +1854,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">After Life</h5>
+                  <p class="movieDescr">Umorismo Inglese . Arguto . Commedia cupa</p>
                 </div>
               </div>
             </div>
@@ -1874,8 +1878,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Self made</h5>
+                  <p class="movieDescr">Motivante . Ottimista . Emozionante</p>
                 </div>
               </div>
             </div>
@@ -1898,8 +1902,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Freud</h5>
+                  <p class="movieDescr">Cupo . Suspence . Misteri</p>
                 </div>
               </div>
             </div>
@@ -1922,8 +1926,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Grace & Frankie</h5>
+                  <p class="movieDescr">Arguto . Bizzarro . Sitcom</p>
                 </div>
               </div>
             </div>
@@ -1931,7 +1935,7 @@
           <div class="col-6 col-md-2">
             <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/17.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/23.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -1946,8 +1950,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Ray Donovan</h5>
+                  <p class="movieDescr">Crudo . Dramma . Celebrità</p>
                 </div>
               </div>
             </div>
@@ -1955,7 +1959,7 @@
           <div class="col-6 col-md-2">
             <div class="card border-0 d-none d-md-flex">
               <div class="image-wrapper d-block w-100">
-                <img src="/assets/imgs/movies/18.png" class="d-block w-100" alt="...">
+                <img src="/assets/imgs/movies/24.png" class="d-block w-100" alt="...">
               </div>
               <div class="card-body w-100 h-100 d-none d-md-block">
                 <div>
@@ -1970,8 +1974,8 @@
                     <path
                       d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                   </svg>
-                  <h5 class="movieTitle">Title</h5>
-                  <p class="movieDescr">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="movieTitle">Ghostbusters Legacy</h5>
+                  <p class="movieDescr">Nostalgico . Ottimista . SciFi</p>
                 </div>
               </div>
             </div>
@@ -2023,7 +2027,7 @@
             </svg>
           </div>
 
-          <!-- Info e Varie -->
+          <!-- info & Misc -->
           <div class="d-flex justify-content-between">
             <div class="mx-2 mx-md-0">
               <p class="info" href="#">Audio and Subtitles</p>
@@ -2051,12 +2055,12 @@
             </div>
           </div>
 
-          <!-- Bottone "Service Code" -->
+          <!-- Button "Service Code" -->
           <div>
             <button class="service mt-5">Service Code</button>
           </div>
 
-          <!-- Crediti -->
+          <!-- Credits -->
           <div class="credits mt-4">
             <p>© 1997-2019 Netflix, Inc. {i-0d00fcda2df9c0de}</p>
           </div>
